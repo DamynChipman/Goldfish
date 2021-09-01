@@ -31,7 +31,6 @@
 *.nem
 *.spd
 *.pex
-*.pdf
 *.plist*
 *.bbl
 *.blg
@@ -70,7 +69,6 @@ temp_print_trace.*
 *.vtu
 *.pvtu
 .depend
-*.png
 *.svg
 *.gif
 *.tif
