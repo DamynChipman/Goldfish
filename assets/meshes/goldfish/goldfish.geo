@@ -111,3 +111,15 @@ Physical Surface("head") = {24};
 Physical Surface("front_face") = {1};
 //+
 Physical Surface("back_face") = {29};
+//+
+Delete {
+  Point{30}; Point{14}; Point{11}; Point{2}; Point{6}; Point{19}; Point{7}; Point{8}; Point{3}; Point{13}; Point{16}; Point{17}; Point{29}; Point{4}; Point{15}; Point{28}; Point{12}; 
+}
+//+
+Delete {
+  Point{6}; Point{19}; 
+}
+//+
+Delete {
+  Point{6}; Point{19}; Point{14}; Point{30}; Point{15}; Point{28}; Point{17}; Point{29}; 
+}
