@@ -1,7 +1,8 @@
 # GOLDFISH: GeOphysciaL FInite element Simulation Hub
 
 ## A geophysics multiphysics application suite.
-=====
+
+![goldfish_mesh](/assets/imgs/goldfish_mesh.png)
 
 "Fork Goldfish" to create a new MOOSE-based application.
 
