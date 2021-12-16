@@ -2,7 +2,7 @@
 #define LANDSCAPE_DIFFUSION_H_
 #pragma once
 
-#include "ADKernelGrad.h"
+#include <ADKernelGrad.h>
 
 class LandscapeDiffusion : public ADKernelGrad {
 

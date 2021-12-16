@@ -1,8 +1,8 @@
 [Mesh]
 	type = GeneratedMesh
 	dim = 2
-	nx = 500
-	ny = 500
+	nx = 100
+	ny = 100
 	xmin = 0	# [m]
 	xmax = 500	# [m]
 	ymin = 0	# [m]
@@ -25,7 +25,7 @@
 	[uplift]
 		type = LandscapeUplift
 		variable = elevation
-		uplift = 0.005
+		uplift = -0.005
 	[]
 	[time]
 		type = ADTimeDerivative
@@ -35,16 +35,16 @@
 
 [BCs]
 	[west]
-		type = ADNeumannBC
+		type = ADDirichletBC
 		boundary = left
 		variable = elevation
-		value = 0		# [m]
+		value = 60		# [m]
 	[]
 	[east]
-		type = ADNeumannBC
+		type = ADDirichletBC
 		boundary = right
 		variable = elevation
-		value = 0		# [m]
+		value = 40		# [m]
 	[]
 	[south]
 		type = ADNeumannBC
@@ -72,7 +72,7 @@
 [Executioner]
 	type = Transient
 	scheme = implicit-euler
-	end_time = 100	# [yr]
+	end_time = 1000	# [yr]
 	# end_time = 50		# [yr]
 	dt = 5				# [yr]
 
